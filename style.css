@@ -1,0 +1,167 @@
+* {
+    /* border: red 1px solid; */
+    gap: 10px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header and Footer */
+.header,
+.footer {
+    height: 50px;
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+    top: 0;
+}
+
+.footer {
+    justify-content: space-evenly;
+}
+
+/* Containers? */
+.third-container,
+.fourth-container,
+.container,
+.header,
+.first {
+    margin: 10%;
+}
+
+/* First/Hero section */
+.first,
+.first-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-right img {
+    border-radius: 20px;
+}
+
+.first-button {
+    align-self: center;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px;
+}
+
+/* Second/Info section */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Third/Quote section */
+.quoter {
+    text-align: right;
+}
+
+/* Fourth/Call to action section */
+.fourth-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    height: 140px;
+}
+
+.fourth-button {
+    align-self: center;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px;
+}
+
+.fourth-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourth-text p {
+    margin: 0;
+}
+
+/* Colors, Fonts and Backgrounds */
+.top,
+.footer {
+    background-color: #1F2937;
+}
+
+.first-left h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-style: extra-bold;
+}
+
+.title h1 {
+    font-size: 36px;
+    color: ##1F2937;
+    font-style: extra-bold;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.first-left-subtext,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+.third {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+button,
+.fourth-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+}
